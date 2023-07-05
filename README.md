@@ -12,10 +12,10 @@
 
 # IPTABLES
 
-[iptable]() is a utility used to make changes in linux firewall
+[iptable](https://linux.die.net/man/8/iptables) is a utility used to make changes in linux firewall
 
 ## netfilter 
 
-[netfilter]() is a framework provided by linux kernel which allows various networking related operations to be implemented in the form of rules.
+[netfilter](https://www.netfilter.org/) is a framework provided by linux kernel which allows various networking related operations to be implemented in the form of rules.
 
 
