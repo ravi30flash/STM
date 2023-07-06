@@ -11,12 +11,12 @@
 ```
 ## How to see all iptable current rules
 ```bash
-    iptables-save -L -v
+    iptables -L -v
 ```
 
 ## How to see all iptable INPUT rules
 ```bash
-    iptables-save -L INPUT -nv
+    iptables -L INPUT -nv
 ```
 
 ## How to block an ip address
@@ -51,3 +51,12 @@
     # iptables -A INPUT -p udp --dport 25 -j ACCEPT
 ```
 
+## How to remove a rule
+```bash
+    iptables -D INPUT rule_no
+```
+
+## How to view iptable rules with line numbers
+```bash
+    iptables -L INPUT -n --line-numbers
+```
