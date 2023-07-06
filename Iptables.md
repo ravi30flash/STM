@@ -45,9 +45,9 @@
 ## How to enable  a port:
 ```bash
     # example to block 25 port
-    iptables -A INPUT -p tcp --dport port_no -j ACCEPTST
-    # iptables -A INPUT -p tcp --dport 25 -j ACCEPTST
-    iptables -A INPUT -p udp --dport port_no -j ACCEPTST
-    # iptables -A INPUT -p udp --dport 25 -j ACCEPTST
+    iptables -A INPUT -p tcp --dport port_no -j ACCEPT
+    # iptables -A INPUT -p tcp --dport 25 -j ACCEPT
+    iptables -A INPUT -p udp --dport port_no -j ACCEPT
+    # iptables -A INPUT -p udp --dport 25 -j ACCEPT
 ```
 
