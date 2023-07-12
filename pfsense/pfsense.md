@@ -13,7 +13,7 @@
 ### Step 4: go to Services > snort 
  ![oinkcode](./images/3.jpg)
 ### Step 5: go to Global setting on snort pag 
- ![oinkcode](./images/4.jpg)
+ ![oinkcode](./images/4_.jpg)
 
 
 
