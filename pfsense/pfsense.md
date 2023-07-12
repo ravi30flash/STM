@@ -4,16 +4,20 @@
 
 ### Step 1: first download iso and install the pfsense firewall
  `access the pfsense firewall on LAN ip (i.e Host Only Network)`
- ![oinkcode](./images/0.jpg)
+ ![pfsense](./images/0.jpg)
 ### Step 2: install snort package in the pfsense
- ![oinkcode](./images/1.jpg)
+ ![pfsense](./images/1.jpg)
 
 ### Step 3: login into snort.org and copy the oinkcode into the pfsense's snort package
- ![oinkcode](./images/2.jpg)
+ ![pfsense](./images/2.jpg)
 ### Step 4: go to Services > snort 
- ![oinkcode](./images/3.jpg)
-### Step 5: go to Global setting on snort pag 
- ![oinkcode](./images/4_.jpg)
+ ![pfsense](./images/3.jpg)
+### Step 5: go to Global setting on snort page, after changing th setting, click save 
+ ![pfsense](./images/4_.jpg)
+### Step 6: go to snort interface setting on snort page and click add & keep all the default settings on WAN settings and click save 
+ ![pfsense](./images/5.jpg)
+ ![pfsense](./images/6.jpg)
+ ![pfsense](./images/7.jpg)
 
 
 
