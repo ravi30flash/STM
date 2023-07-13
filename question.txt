@@ -1,0 +1,27 @@
+pfsense 
+	-> allow icmp traffic from any ip address
+	-> block all incoming traffic except icmp allowed about
+	-> allow all traffic to outgoing 
+	-> configure snort to detect outgoing ssh request
+	-> configure snort to detect ingoing ssh request
+	
+wireshark 
+	-> setup wireshark to capture web traffic from the local machine (5 marks)
+	-> setup the wireshark to capture icmp traffic from the local machine (5 marks)
+
+nginx
+	-> setup reverse proxy using nginx according to the provided diagram utilising 
+	-> load balancing with the waited_lease conn mode
+	-> setup reverse proxy using nginx according to the provided diagram utilising 
+	-> load balancing with the round robin mode
+	
+firewalld
+	-> allow icmp from any ip address
+	-> write rich rule to allow ssh from 192.168.1.0/24 and private zone only
+	-> write rule to allow secure web_server (https only) and block all other ports
+	-> allow web_server http and https access from any ip address
+	-> write rich rule to allow ssh from 192.168.76.0/24 only 
+	
+openvpn
+	-> configure openvpn server with password based authentication 
+	
